@@ -1,0 +1,32 @@
+header {
+
+
+    background: linear-gradient(90deg, #282A57 11.98%, rgba(0, 165, 255, 0) 100%);
+   
+
+    
+}
+
+.logo
+{
+    background: none;
+}
+.tap
+{
+    background: none;
+    margin-left: 30px;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.flex1
+{
+    display: flex;
+    align-items: center;
+}
