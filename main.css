@@ -2,6 +2,7 @@ body {
 
     background: linear-gradient(180deg, #000E23 0%, #0C0C4A 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px;
 }
 
 .wrapper {
@@ -19,14 +20,22 @@ body {
 
 .back1 {
 
-    position: relative;
-    z-index : 1;
+    position: absolute;
+    z-index : -1;
 
+}
+.back1z
+{
+    width: 50vw;
+}
+.computer
+{
+    width: 77vw;
 }
 
 .back2 {
     position: absolute;
-    z-index : 2;
+    z-index : 0;
 
 
 }
@@ -153,8 +162,36 @@ padding-right: 13px;
 .Grid
 {
    display: grid;
-   justify-content: center;
-   grid-template-columns: repeat(2, 700px); 
-   grid-column-gap: 20px ;
+   justify-content: space-evenly;
+    grid-template-columns: repeat(2, 700px);
+    justify-items: center;
+    position: relative;
+}
+
+.catalog1
+{
+    width: 37vw;
+   position: relative;
+   
+
+}
+.padding
+{
+padding-left: 11vw ;
+
+}
+
+.padding1
+{
+padding-inline: 11vw ;
+}
+
+
+.grid-catalog-1
+{
+display: grid;
+grid-auto-rows: minmax(100px, auto);
+position: relative;
+
 
 }
