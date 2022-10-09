@@ -2,7 +2,7 @@ body {
 
     background: linear-gradient(180deg, #000E23 0%, #0C0C4A 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 0px;
+    margin    : 0px;
 }
 
 .wrapper {
@@ -12,8 +12,7 @@ body {
     justify-content: flex-end;
 }
 
-.top
-{
+.top {
     margin-top: 100px;
 }
 
@@ -24,13 +23,13 @@ body {
     z-index : -1;
 
 }
-.back1z
-{
+
+.back1z {
     width: 50vw;
 }
-.computer
-{
-    width: 77vw;
+
+.computer {
+    width: 65vw;
 }
 
 .back2 {
@@ -42,7 +41,7 @@ body {
 
 
 .back4 {
-    
+
 
     margin-top: 404px;
 
@@ -62,136 +61,166 @@ h1 {
 }
 
 .gridblock {
-margin-top: 180px;
+    margin-top           : 180px;
     display              : grid;
     justify-content      : center;
     grid-template-columns: repeat(4, 355px);
 
 
 }
-.block
-{
-    
-    display: flex;
+
+.block {
+
+    display        : flex;
     justify-content: flex-end;
 }
 
-.block5
-{
-    
-   display: flex;
-   justify-content: center;
+.block5 {
+
+    display        : flex;
+    justify-content: center;
 }
 
-.end
-{
-    margin-top: 20px;
-    display: flex;
+.end {
+    margin-top     : 20px;
+    display        : flex;
     justify-content: flex-end;
 }
 
 
 
-.heart,.zeus,.locker,.people,.password
-{
-    position: absolute;
-padding-top: 20px;
-padding-right: 13px;
+.heart,
+.zeus,
+.locker,
+.people,
+.password {
+    position     : absolute;
+    padding-top  : 20px;
+    padding-right: 13px;
 }
 
-.free1
-{
-    position: absolute;
+.free1 {
+    position     : absolute;
     padding-right: 110px;
 }
-.free2
-{
-    position: absolute;
+
+.free2 {
+    position     : absolute;
     padding-right: 165px;
 }
-.free3
-{
-    position: absolute;
+
+.free3 {
+    position     : absolute;
     padding-right: 230px;
 }
-.free4
-{
-    position: absolute;
+
+.free4 {
+    position     : absolute;
     padding-right: 130px;
 }
 
-.free5
-{
-    position: absolute;
-    padding-right: 180px; 
+.free5 {
+    position     : absolute;
+    padding-right: 180px;
 }
 
 
 
-.para1
-{
-    position: absolute;
-    margin-top: 90px;
+.para1 {
+    position    : absolute;
+    margin-top  : 90px;
     margin-right: 30px;
 }
-.para2
-{
-    position: absolute;
-    margin-top: 90px;
+
+.para2 {
+    position    : absolute;
+    margin-top  : 90px;
     margin-right: 30px;
 }
-.para3
-{
-    position: absolute;
-    margin-top: 90px;
+
+.para3 {
+    position    : absolute;
+    margin-top  : 90px;
     margin-right: 55px;
 }
-.para4
-{
-    position: absolute;
-    margin-top: 90px;
+
+.para4 {
+    position    : absolute;
+    margin-top  : 90px;
     margin-right: 30px;
 }
-.para5
-{
-    position: absolute;
-    margin-top: 90px;
+
+.para5 {
+    position    : absolute;
+    margin-top  : 90px;
     margin-right: 95px;
 }
 
-.Grid
-{
-   display: grid;
-   justify-content: space-evenly;
+.Grid {
+    display              : grid;
+    justify-content      : space-evenly;
     grid-template-columns: repeat(2, 700px);
-    justify-items: center;
-    position: relative;
+    justify-items        : center;
+    border-radius        : 15px;
+    
+}
+.grid
+{
+    margin-top: 8%;
+    margin-right: 8%;
+    display: grid;
+    justify-items: end;
+    
+    align-items: end;
 }
 
-.catalog1
+.grid-catalog-1 {
+    display              : grid;
+    grid-template-rows: repeat(12, 90px);
+    width                : 36vw;
+    padding-left         : 20px;
+    
+}
+
+.gradient
 {
-    width: 37vw;
-   position: relative;
+    background           : linear-gradient(180deg, #051B3E 0%, #093663 100%);
+    border-radius        : 15px;
+}
+
+.padding {
+    padding-inline: 13vw;
+}
+.padding1 {
+    padding-inline: 11vw;
+}
+
+
+
+.flex1
+{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-inline-end: 6% ;
+}
+.flex2
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.zaebalo
+{
+    display: flex;
+    flex-direction: column;
    
-
-}
-.padding
-{
-padding-left: 11vw ;
-
-}
-
-.padding1
-{
-padding-inline: 11vw ;
+    
 }
 
 
-.grid-catalog-1
-{
-display: grid;
-grid-auto-rows: minmax(100px, auto);
-position: relative;
 
 
-}
+
+
