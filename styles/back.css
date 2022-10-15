@@ -1,13 +1,8 @@
-.top {
-    margin-top: 100px;
-}
-
-
 .back1 {
     position: absolute;
     z-index : -1;
     top     : 0;
-    opacity : 0.4;
+    opacity : 0.6;
     right   : 0;
 }
 
@@ -15,6 +10,7 @@
     position: absolute;
     z-index : -1;
     right   : 0;
+    top     : 0;
 }
 
 .back3 {
@@ -60,16 +56,15 @@
 
 .back6 {
     position: absolute;
-    height  : 100%;
     left    : 0;
-    bottom  : -380%;
+    bottom  : 0;
     z-index : -1;
-
+    opacity : 0.3;
 }
 
 .back6z {
-    width: 76vw;
-
+    width  : 76vw;
+    display: block;
 }
 
 .flex-back {
@@ -108,7 +103,7 @@
     filter    : blur(75px);
     position  : absolute;
 
-    left   : 66%;
+    right  : 0;
     height : 34vw;
     width  : 34vw;
     top    : 3426.14px;
