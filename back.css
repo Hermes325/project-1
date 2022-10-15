@@ -1,0 +1,133 @@
+.top {
+    margin-top: 100px;
+}
+
+
+.back1 {
+    position: absolute;
+    z-index : -1;
+    top     : 0;
+    opacity : 0.4;
+    right   : 0;
+}
+
+.back2 {
+    position: absolute;
+    z-index : -1;
+    right   : 0;
+}
+
+.back3 {
+    position  : absolute;
+    z-index   : -1;
+    margin-top: 820px;
+    /*заменить в конце на 20vw*/
+}
+
+.back4 {
+    position: absolute;
+    z-index : -1;
+    left    : 1347px;
+    top     : 2005.44px;
+    opacity : .5;
+
+}
+
+
+.back5 {
+    position: absolute;
+    left    : 0px;
+    top     : 1820px;
+    /*заменить в конце на vw*/
+    z-index : -1;
+}
+
+.pic {
+    position: absolute;
+    right   : 0px;
+    top     : 2023px;
+    /*заменить в конце на vw*/
+    z-index : -1;
+}
+
+.pic1 {
+    width: 14vw;
+}
+
+.back5z {
+    width: 43vw;
+}
+
+.back6 {
+    position: absolute;
+    height  : 100%;
+    left    : 0;
+    bottom  : -380%;
+    z-index : -1;
+
+}
+
+.back6z {
+    width: 76vw;
+
+}
+
+.flex-back {
+    display: flex;
+
+}
+
+
+
+.treo {
+    position: absolute;
+    width   : 6vw;
+    height  : 7vw;
+    left    : 76%;
+    top     : 3676.36px;
+    /*заменить в конце на vw*/
+    z-index : -1;
+
+}
+
+
+
+.circle-top {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(176, 30, 255, 0.55) 0%, rgba(6, 14, 52, 0.55) 100%);
+    filter    : blur(75px);
+    position  : absolute;
+
+    height : 34vw;
+    width  : 34vw;
+    top    : 1749.27px;
+    z-index: -1;
+}
+
+.circle-down {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(176, 30, 255, 0.55) 0%, rgba(6, 14, 52, 0.55) 100%);
+    filter    : blur(75px);
+    position  : absolute;
+
+    left   : 66%;
+    height : 34vw;
+    width  : 34vw;
+    top    : 3426.14px;
+    z-index: -1;
+}
+
+
+.back1z {
+    width: 50vw;
+}
+
+.back2z {
+    width: 17vw;
+}
+
+.computer {
+    width: 65vw;
+}
+
+.back {
+    height: 100%;
+}
