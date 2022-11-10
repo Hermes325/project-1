@@ -1,42 +1,32 @@
-footer
-{
-   
+footer {
+
     background: linear-gradient(180deg, #051B3E 0%, #093663 100%);
-    height: 110px;
+    height    : 110px;
 }
 
 
 
 
-.logo
-{
+.logo {
     background: none;
 }
-.tap
-{
-    background: none;
+
+.tap {
+    background : none;
     margin-left: 30px;
 }
 
-.flex
-{
-    display: flex;
+.flex {
+    display        : flex;
     justify-content: flex-end;
 }
 
-.flex1
-{
-    display: flex;
+.flex1 {
+    display    : flex;
     align-items: center;
 }
 
-.none
-{
+.none {
     text-decoration: none;
-    color: #FFFFFF;
-}
-
-.margin-top-40
-{
-    margin-top: 40px;
+    color          : #FFFFFF;
 }
